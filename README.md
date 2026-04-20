@@ -9,7 +9,7 @@ O objetivo principal deste repositório é documentar o meu aprendizado e a minh
 ## 🛠️ Tecnologias Utilizadas
 
 * **Linguagem:** C / C++
-* **Ambiente de Desenvolvimento:** Visual Studio Code (Windows)
+* **Ambiente de Desenvolvimento:** VSCodium/Neovim
 * **Controle de Versão:** Git e GitHub
 
 ## 🗂️ Estruturas Implementadas

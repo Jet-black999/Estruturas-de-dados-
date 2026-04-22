@@ -1,0 +1,42 @@
+Exercicio 3:
+
+//pois 8bytes *3=24
+R:O valor da expressão v + 3 é 55024. 
+Este valor corresponde ao endereço físico exato onde se inicia o quarto elemento do vetor, acessível via índice pela notação v[3].
+
+
+exercicio 4
+enunciado: 
+Quais das seguintes expressões de
+atribuição são ilegais/falsas?
+
+a) p = &i;
+valido e p tera o endereco da variavel i 
+
+b) *q = &j;
+invalido 
+Você está tentando armazenar um endereço de memória 
+dentro de uma variável inteira comum.
+
+c) p = &*&i;
+p= ao endereço do ponteiro 
+É o mesmo que p = &i;.
+
+
+d) i = (*&)j;
+invalido 
+
+e) i = *&j;
+valido - O lado esquerdo é int, o lado direito é int. 
+É perfeitamente válido e equivalente a i = j;.
+
+f) i = *&*&j;
+&j (endereço) -> * (valor de j) -> & (endereço) -> * (valor de j).
+valido Equivalente a i = j;.
+
+g) q = *p;
+invalido ->Você está tentando atribuir um número a um ponteiro, o que causa erro de tipagem.
+
+
+h) i = (*p)++ + *q;
+valido  

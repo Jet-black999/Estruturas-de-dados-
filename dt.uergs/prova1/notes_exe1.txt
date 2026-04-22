@@ -1,0 +1,25 @@
+//fila de sistema de impressão utilido por empresas 
+implementar uma lista encadeada com pesos de funcionarios 
+
+
+nó vai receber cargo,departamento e prioridade do doc e mais prioridade final = (pesoCargo*3) + (pesoDepartamento*2) prioDoc
+
+estruturas:
+
+-fila de impressão baseado em pioridades
+-pilha de descartados 
+-pode consultar uma impressão-busca na lista 
+-listar lista
+-imprimir documento =exlucir da fila 
+-fila dos impressos 
+
+obs:
+-irei faer um vetor de listas encadeadas 
+-historico de impressão vão para pilha 
+
+
+fila de impressão 
+pilha descartados 
+pilha de historicos 
+
+aumentar a prioridade conforme o tempo de espera ou numeros de impressão 

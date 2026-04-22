@@ -16,6 +16,7 @@ estruturas:
 obs:
 -irei faer um vetor de listas encadeadas 
 -historico de impressão vão para pilha 
+-adcionar funcionalidade de aumentar a prioridade conforme o tempo 
 
 
 fila de impressão 
